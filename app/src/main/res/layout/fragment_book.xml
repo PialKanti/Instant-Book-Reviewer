@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/bookCover"
+                android:layout_width="125dp"
+                android:layout_height="180dp"
+                android:layout_marginRight="15dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/bookTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:text="ABC"
+                        android:textColor="#382110"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+
+                    <ImageButton
+                        android:id="@+id/readlist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|end"
+                        android:layout_marginRight="3dp"
+                        android:background="@mipmap/item_check"
+                        android:contentDescription="Add to Readlist"
+                        android:longClickable="true"
+                        android:tag="item_check.png" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/bookAuthor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="hafpa"
+                    android:textColor="#333"
+                    android:textSize="15sp"
+                    android:typeface="serif" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RatingBar
+                        android:id="@+id/RatingBar"
+                        style="@style/CustomRatingBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:stepSize="0.5" />
+
+                    <TextView
+                        android:id="@+id/ratingScore"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="13dp"
+                        android:text="4.5/5"
+                        android:textColor="#626262"
+                        android:textSize="15sp"
+                        android:typeface="normal" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/ratingCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="\u2022 1,390,421 Ratings"
+                    android:textColor="#626262"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/reviewCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="\u2022 1,390,421 Ratings"
+                    android:textColor="#626262"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lanText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Edition Language"
+                        android:textColor="#382110"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                    <TextView
+                        android:id="@+id/language"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="#626262"
+                        android:textSize="14sp"
+                        android:typeface="serif" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/innerLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="12dp"
+                    android:background="#9E9E9E" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Mass Market Paperback,713 pages"
+            android:textColor="#526C6C"
+            android:textSize="14sp"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/Publication"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Published April 1st 2006 by Pocket Books"
+            android:textColor="#526C6C"
+            android:textSize="14sp"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/Destext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="Description:"
+            android:textColor="#382110"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/bookDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#626262"
+            android:textSize="16sp"
+            android:typeface="serif" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="50dp"
+            android:gravity="bottom|end"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:text="All data are from &#169;"
+                android:textColor="#885926"
+                android:textSize="12sp"
+                android:typeface="monospace" />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="25dp"
+                android:background="@drawable/goodreads_logo" />
+        </LinearLayout>
+
+
+        <!--android:ellipsize="end"
+        android:maxLines="3"-->
+
+        <!--<TextView
+            android:id="@+id/MoreDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="(...more)"
+            android:textColor="#5d5f00"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:typeface="serif" />-->
+
+    </LinearLayout>
+</ScrollView><!--<TextView
+android:id="@+id/ReviewText"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginLeft="10dp"
+android:layout_marginTop="10dp"
+android:text="Reviews from Goodreads:"
+android:textColor="#382110"
+android:textSize="18sp"
+android:textStyle="bold"
+android:typeface="serif" />
+
+<WebView
+android:id="@+id/bookReview"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_marginTop="10dp"
+android:layout_marginBottom="20dp"/>-->
