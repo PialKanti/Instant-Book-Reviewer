@@ -1,4 +1,7 @@
 # Instant-Book-Reviwer
+[![Tesseract][npm-image]][https://github.com/rmtheis/tess-two]
+[![OCR][travis-image]][https://en.wikipedia.org/wiki/Optical_character_recognition]
+
 An android application which app which can give real time reviews from internet by simply capturing a book’s cover.
 
 ## Why i develop it
