@@ -29,8 +29,6 @@ Home Page    |  Take photo using camera    | Getting XML data from Goodreads.com
 ![Home Page](http://i.imgur.com/GhM3ueq.jpg)  |  ![Take photo using camera](http://i.imgur.com/W3EqHzb.jpg)  |    ![Getting XML data from Goodreads.com](http://i.imgur.com/4PbYuJF.jpg)
 
 </br>
-</br>
-</br>
 
 Book Description   |  Reviews    | Buy Online
 :-------------------------:|:-------------------------:|:-------------------------:
