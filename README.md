@@ -21,4 +21,4 @@ In case of this problem, <b>Book Judge</b>(Name of the app) can give the review 
 - Can add a book to read-list which user can use later for further purposes
 
 ## Workflow
-[[img]http://i.imgur.com/xXlNk3l.png[/img]
+![workflow](http://i.imgur.com/xXlNk3l.png)
