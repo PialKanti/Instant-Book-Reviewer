@@ -9,6 +9,6 @@ In case of this problem, <b>Book Judge</b>(Name of the app) can give the review 
  - Android
  
 ## Minimun SDK version
- - 3.0 (HoneyComb, API 11)
- <b>N.B:</b> I run this app in <i>lolipop</i>(Android 5.0). But i don't know if it will work in <i>Marshmallow</i>(Android 6.0)
+ - 3.0 (HoneyComb, API 11)<br>
+ <b>N.B:</b> I run this app in <i><b>lolipop</b></i>(Android 5.0). But i don't know if it will work in <i><b>Marshmallow</b></i>(Android 6.0)
  
