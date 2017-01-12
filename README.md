@@ -1,7 +1,4 @@
 # Instant-Book-Reviwer
-[![Tesseract][npm-image]][https://github.com/rmtheis/tess-two]
-[![OCR][travis-image]][https://en.wikipedia.org/wiki/Optical_character_recognition]
-
 An android application which app which can give real time reviews from internet by simply capturing a book’s cover.
 
 ## Why i develop it
@@ -29,6 +26,9 @@ In case of this problem, <b>Book Judge</b>(Name of the app) can give the review 
 
 ## Workflow
 ![workflow](http://i.imgur.com/xXlNk3l.png)
+* User can capture picture of book cover through Book Judge and it can get text from the captured image using Google Tesseract.
+* Then i have used OpenCV, before detecting text via Tesseract for improving the quality.
+* Actually we are getting reviews from Goodreads.com which is quite popular to the book-lovers.
 
 
 ## App design
