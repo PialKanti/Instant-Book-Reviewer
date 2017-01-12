@@ -34,6 +34,11 @@ Book Description   |  Reviews    | Buy Online
 :-------------------------:|:-------------------------:|:-------------------------:
 ![Book Description](http://i.imgur.com/g9FGKtw.jpg)  |  ![Reviews](http://i.imgur.com/5tKEUN7.jpg)  |    ![Buy Online](http://i.imgur.com/W46YNOD.jpg)
 
+</br>
+
+Search by book title    |  ReadList
+:-------------------------:|:-------------------------:
+![Search by book title](http://i.imgur.com/49CUexa.jpg) |  ![ReadList](http://i.imgur.com/Qp55SI0.jpg)
 
 
 
