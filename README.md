@@ -10,5 +10,14 @@ In case of this problem, <b>Book Judge</b>(Name of the app) can give the review 
  
 ## Minimun SDK version
  - 3.0 (HoneyComb, API 11)<br>
- <b>N.B:</b> I run this app in <i><b>lolipop</b></i>(Android 5.0). But i don't know if it will work in <i><b>Marshmallow</b></i>(Android 6.0)
  
+<b>N.B:</b> I run this app in <i><b>lolipop</b></i>(Android 5.0). But i don't know if it will work in <i><b>Marshmallow</b></i>(Android 6.0)
+
+## Features
+- Customized camera activity using surface view
+- Get real time reviews by capturing image of book-cover
+- Also get reviews by  typing book name
+- Along with reviews user can get full description of the book provided by [Goodreads.com](https://www.goodreads.com/)
+- Can add a book to read-list which user can use later for further purposes
+
+
