@@ -46,4 +46,7 @@ Search by book title    |  ReadList
 ![Search by book title](http://i.imgur.com/49CUexa.jpg) |  ![ReadList](http://i.imgur.com/Qp55SI0.jpg)
 
 
+## Limitations
+- Only detect English language.
+- Sometimes Google Tesseract’s performance is very poor.
 
