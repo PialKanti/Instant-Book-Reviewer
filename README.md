@@ -20,4 +20,5 @@ In case of this problem, <b>Book Judge</b>(Name of the app) can give the review 
 - Along with reviews user can get full description of the book provided by [Goodreads.com](https://www.goodreads.com/)
 - Can add a book to read-list which user can use later for further purposes
 
-
+## Workflow
+![Workflow](http://imgur.com/a/F2Kp9)
