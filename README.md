@@ -1,4 +1,4 @@
-# Instant-Book-Reviwer
+# Instant-Book-Reviewer
 An android application which app which can give real time reviews from internet by simply capturing a book’s cover.
 
 ## Why i develop it
