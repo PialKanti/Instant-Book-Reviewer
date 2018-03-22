@@ -1,5 +1,5 @@
 # Instant-Book-Reviewer
-An android application which app which can give real time reviews from internet by simply capturing a book’s cover.
+An android application which app which can give real time reviews from internet by simply capturing image of a book’s cover.
 
 ## Why i develop it
 When I am buying book (usually as a gift) I need to go through titles I never heard about. It's quite difficult to decide which one is good. Would be great if I can just take a picture of the cover with my mobile phone and it would instantly show me real time reviews from the readers. Could also show availability in different stores too. <br><br>
